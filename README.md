@@ -71,14 +71,14 @@ $ mkdir build/ && cd build/
 $ cmake -DCMAKE_BUILD_TYPE=Release ..
 $ make -j4    #Replace 4 with however many cores you have to spare
 ```
-Maybe need install SFML lib
+Maybe you need install SFML lib first
 
-For mac
+- For mac
 ```
 brew install SFML
 ```
 
-For Linux
+- For Linux
 ```
 sudo apt-get install libsfml-dev
 ```
